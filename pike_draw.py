@@ -9,13 +9,11 @@ import pikepdf
 def color_code(c: typing.Union[list, tuple], f: str) -> str:
     ''' create RGB color code PDF command for fill f = 'f' or stroke f = 'c' operation '''
     
-    if (
-            type(c) not in (list, tuple)
-            or len(c) != 3
-            or min(c) < 0
-            or max(c) > 1
-        ):
-            raise ValueError("RGB color needs 3 color components in range 0 to 1")
+    if (type(c) not in (list, tuple)
+        or len(c) != 3
+        or min(c) < 0
+        or max(c) > 1):
+        raise ValueError("RGB color needs 3 color components in range 0 to 1")
         
     return f"{c[0]} {c[1]} {c[2]} RG " if f == "c" else f"{c[0]} {c[1]} {c[2]} rg "
 
