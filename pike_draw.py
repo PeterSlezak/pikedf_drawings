@@ -1,4 +1,3 @@
-import typing
 import pikepdf
 
 #-------------------------------------------------------------------------------
@@ -6,13 +5,13 @@ import pikepdf
 # ADD SIMPLE DRAWINGS CAPABILITY TO PIKEPDF Page object
 #
 #-------------------------------------------------------------------------------
-def color_code(c: typing.Union[list, tuple], f: str) -> str:
+def color_code(c: list, f: str) -> str:
     ''' create RGB color code PDF command for fill f = 'f' or stroke f = 'c' operation '''
     
-    if (type(c) not in (list, tuple)
-        or len(c) != 3
-        or min(c) < 0
-        or max(c) > 1):
+    if type(c) is not list \
+        or len(c) != 3 \
+        or min(c) < 0 \
+        or max(c) > 1:
         raise ValueError("RGB color needs 3 color components in range 0 to 1")
         
     return f"{c[0]} {c[1]} {c[2]} RG " if f == "c" else f"{c[0]} {c[1]} {c[2]} rg "
@@ -178,7 +177,6 @@ if __name__ == '__main__':
     MyPage(pdf.pages[0]).draw_rect([100,pg_height-110], 50, 100, border_width=5.0, fill_color=[1, 0, 0], stroke_color=[0, 0, 0])
     MyPage(pdf.pages[0]).draw_rect([200,pg_height-110], 100, 20, border_width=5.0, stroke_color=[0, 1, 0], fill_color=[1, 0, 0], line_join_style=2)
     MyPage(pdf.pages[0]).draw_rect([400,pg_height-110], 50, 50, border_width=0, fill_color=[1, 0, 0], line_join_style=0)
-
 
     MyPage(pdf.pages[0]).draw_line([10,pg_height-150], [300, pg_height-400],
                                    border_width=2,
