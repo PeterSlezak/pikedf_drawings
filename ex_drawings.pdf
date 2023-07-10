@@ -1,0 +1,225 @@
+%PDF-1.3
+%¿÷¢þ
+%QDF-1.0
+
+%% Original object ID: 1 0
+1 0 obj
+<<
+  /Pages 2 0 R
+  /Type /Catalog
+>>
+endobj
+
+%% Original object ID: 2 0
+2 0 obj
+<<
+  /Count 1
+  /Kids [
+    3 0 R
+  ]
+  /Type /Pages
+>>
+endobj
+
+%% Page 1
+%% Original object ID: 4 0
+3 0 obj
+<<
+  /Contents [
+    4 0 R
+    6 0 R
+    8 0 R
+    10 0 R
+    12 0 R
+    14 0 R
+  ]
+  /MediaBox [
+    0
+    0
+    612
+    792
+  ]
+  /Parent 2 0 R
+  /Resources <<
+  >>
+  /Type /Page
+>>
+endobj
+
+%% Contents for page 1
+%% Original object ID: 3 0
+4 0 obj
+<<
+  /Length 5 0 R
+>>
+stream
+
+endstream
+endobj
+
+%QDF: ignore_newline
+5 0 obj
+0
+endobj
+
+%% Contents for page 1
+%% Original object ID: 5 0
+6 0 obj
+<<
+  /Length 7 0 R
+>>
+stream
+
+        q
+        10 682 50 100 re
+        5.0 w
+        h
+        1 j
+        0 J
+        [2 2] 0 d
+        0 1 0 RG 
+S
+        Q
+        
+endstream
+endobj
+
+%QDF: ignore_newline
+7 0 obj
+140
+endobj
+
+%% Contents for page 1
+%% Original object ID: 6 0
+8 0 obj
+<<
+  /Length 9 0 R
+>>
+stream
+
+        q
+        100 682 50 100 re
+        5.0 w
+        h
+        0 j
+        0 J
+         
+        1 0 0 rg 0 0 0 RG B
+S
+        Q
+        
+endstream
+endobj
+
+%QDF: ignore_newline
+9 0 obj
+143
+endobj
+
+%% Contents for page 1
+%% Original object ID: 7 0
+10 0 obj
+<<
+  /Length 11 0 R
+>>
+stream
+
+        q
+        200 682 100 20 re
+        5.0 w
+        h
+        2 j
+        0 J
+         
+        1 0 0 rg 0 1 0 RG B
+S
+        Q
+        
+endstream
+endobj
+
+%QDF: ignore_newline
+11 0 obj
+143
+endobj
+
+%% Contents for page 1
+%% Original object ID: 8 0
+12 0 obj
+<<
+  /Length 13 0 R
+>>
+stream
+
+        q
+        400 682 50 50 re
+        0 w
+        h
+        0 j
+        0 J
+         
+        1 0 0 rg f
+S
+        Q
+        
+endstream
+endobj
+
+%QDF: ignore_newline
+13 0 obj
+131
+endobj
+
+%% Contents for page 1
+%% Original object ID: 9 0
+14 0 obj
+<<
+  /Length 15 0 R
+>>
+stream
+
+        q
+        10 642 m
+        300 392 l
+        2 w
+        h
+        1 j
+        1 J
+        [2 5] 0 d
+        0 1 1 RG S
+        Q
+        
+endstream
+endobj
+
+%QDF: ignore_newline
+15 0 obj
+147
+endobj
+
+xref
+0 16
+0000000000 65535 f 
+0000000052 00000 n 
+0000000133 00000 n 
+0000000242 00000 n 
+0000000492 00000 n 
+0000000569 00000 n 
+0000000637 00000 n 
+0000000854 00000 n 
+0000000924 00000 n 
+0000001144 00000 n 
+0000001214 00000 n 
+0000001436 00000 n 
+0000001507 00000 n 
+0000001717 00000 n 
+0000001788 00000 n 
+0000002014 00000 n 
+trailer <<
+  /Root 1 0 R
+  /Size 16
+  /ID [<b3b8cf353c5de1f363e94b2397450f9c><b3b8cf353c5de1f363e94b2397450f9c>]
+>>
+startxref
+2035
+%%EOF
