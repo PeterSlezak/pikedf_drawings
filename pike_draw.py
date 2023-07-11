@@ -145,21 +145,6 @@ class MyPage(pikepdf.Page):
         
         self.contents_add(bytes(rect_stream_str, 'ascii'))
 
-        #q - Save the current graphics state on the graphics state stack
-        #Q - Restore the graphics state by removing the most recently saved state from
-        #    the stack and making it the current state
-        #w - Set the line width in the graphics state
-        #0 w - A line width of 0 denotes the thinnest line that can be rendered at device resolution:
-        #1 device pixel wide. However, some devices cannot reproduce 1-pixel lines,
-        #and on high-resolution devices, they are nearly invisible. Since the results of rendering
-        #such zero-width lines are device-dependent, their use is not recommended.
-        #
-        #h - Close the current subpath by appending a straight line segment
-        #from the current point to the starting point of the subpath. If the
-        #current subpath is already closed, h does nothing.
-        #S - Stroke the path.
-        #f - Fill the path, using the nonzero winding number rule to determine the region to fill
-        #H - Fill and then stroke the path, using the nonzero winding number rule to determine the region to fill.
 
 
 
